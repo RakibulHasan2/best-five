@@ -15,7 +15,7 @@
                 <img class="h-72 mt-10 " src="images/Group 12.png" alt="">
            </div>
             <div class=" w-3/6 text-center">
-                <h1 class="text-5xl font-bold text-white  pt-20 py-4 font-serif text-orange-500">Pick Any Five Legends</h1>
+                <h1 class="text-5xl font-bold text-white  pt-20 font-serif text-orange-500">Pick Any Five Legends</h1>
                 <img class="float-right" src="images/Line Marker.png" alt=""> <br> <br>
                 <p class="text-white text-xl">Welcome to Our International auction Of Football Federation. You can <br> choose your favorite player. Here are many players given, <br> among them you can select player.</p>
             </div>
@@ -37,42 +37,42 @@
                   <img class="w-full h-44 mb-2" src="images/6-Players/Rectangle 144.png" alt="">
                   <h1 class="font-bold text-2xl mb-2">Lionel Messi</h1>
                   <h3 class="text-gray-400 text-base mb-2">36 Goals . 120 Assist</h3>
-                  <button class="border w-48 p-2 bg-cyan-900 font-bold">Select</button>
+                  <button class="border w-48 p-2 bg-cyan-900 font-bold" onclick="getPlayerName  (this)">Select</button>
                 </div>
                 <!--Player 2-->
                 <div class="rounded  text-center border border-zinc-700 bg-zinc-900 w-64 h-80">
                     <img class="w-full h-44 mb-2" src="images/6-Players/naymer.png" alt="">
                     <h1 class="font-bold text-2xl mb-2">Neymar Jr</h1>
                     <h3 class="text-gray-400 text-base mb-2">36 Goals . 120 Assist</h3>
-                    <button class="border text-white w-48 p-2 bg-cyan-900 font-bold">Select</button>
+                    <button class="border text-white w-48 p-2 bg-cyan-900 font-bold" onclick="getPlayerName(this)">Select</button>
                   </div>
                   <!--Player 3-->
-                <div class="rounded  text-center border border-zinc-700 bg-zinc-900w-64 h-80">
+                <div class="rounded  text-center border border-zinc-700 bg-zinc-900 w-64 h-80">
                     <img class="w-full h-44 mb-2" src="images/6-Players/mbappe.png" alt="">
                     <h1 class="font-bold text-2xl mb-2">Kylian Mbappé</h1>
                     <h3 class="text-gray-400 text-base mb-2">36 Goals . 120 Assist</h3>
-                    <button class="border text-white w-48 p-2 bg-cyan-900 font-bold">Select</button>
+                    <button class="border text-white w-48 p-2 bg-cyan-900 font-bold" onclick="getPlayerName(this)">Select</button>
                   </div>
                    <!--Player 4-->
                   <div class="rounded  text-center border border-zinc-700 bg-zinc-900 w-64 h-80">
                     <img class="w-full h-44 mb-2" src="images/6-Players/Vítor.png" alt="">
                     <h1 class="font-bold text-2xl mb-2">Vítor Machado</h1>
                     <h3 class="text-gray-400 text-base mb-2">36 Goals . 120 Assist</h3>
-                    <button class="border text-white w-48 p-2 bg-cyan-900 font-bold">Select</button>
+                    <button class="border text-white w-48 p-2 bg-cyan-900 font-bold" onclick="getPlayerName(this)">Select</button>  
                   </div>
                   <!--Player 5-->
                   <div class="rounded text-center border border-zinc-700 bg-zinc-900 w-64 h-80">
                     <img class="w-full h-44 mb-2" src="images/6-Players/ramos.png" alt="">
                     <h1 class="font-bold text-2xl mb-2">Sergio Ramos</h1>
                     <h3 class="text-gray-400 text-base mb-2">36 Goals . 120 Assist</h3>
-                    <button class="border text-white w-48 p-2 bg-cyan-900 font-bold">Select</button>
+                    <button class="border text-white w-48 p-2 bg-cyan-900 font-bold" onclick="getPlayerName(this)">Select</button>
                   </div>
                   <!--Player 6-->
                   <div class="rounded text-center border border-zinc-700 bg-zinc-900 w-64 h-80">
                     <img class="w-full h-44 mb-2" src="images/6-Players/Sanches.png" alt="">
                     <h1 class="font-bold text-2xl mb-2">Renato Sanches</h1>
                     <h3 class="text-gray-400 text-base mb-2">36 Goals . 120 Assist</h3>
-                    <button class="border text-white w-48 p-2 bg-cyan-900 font-bold">Select</button>
+                    <button class="border text-white w-48 p-2 bg-cyan-900 font-bold" onclick="getPlayerName(this)">Select</button>
                   </div>
             </div>
             <div class="mt-10 text-white text-center ">
@@ -81,12 +81,9 @@
                 <div class="w-64 h-60 bg-black p-5">
                     <h1 class="font-bold text-2xl">Selected-V</h1>
                     <img class="mx-10 mb-3" src="images/Ureg-Ureg Marker.png" alt="">
-                    <ul>
-                        <li>1.  Lionel Messi</li>
-                        <li>2.  Kylian Mbappé</li>
-                        <li>3.  Neymar Jr</li>
-                        <li>4.  Renato Sanches</li>
-                        <li>5.  Lionel Messi</li>
+                    <ul id="player-name-list"> 
+                      
+                  
                     </ul>
                 </div>
                 <!-- adding 5 players name end-->
