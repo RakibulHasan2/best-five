@@ -1,4 +1,4 @@
-
+//common function
 function getInputByID(inputID)
 {
     const getInput = document.getElementById(inputID);
@@ -12,7 +12,7 @@ function getOutputByID(outputID)
     const getOutput = document.getElementById(outputID);
     return getOutput;
 }
-
+//get the calculate button 
 document.getElementById('calculate-button').addEventListener('click', function(){
      //get per player cost
     const getPerPlayerCost = getInputByID('per-player-cost');
@@ -30,6 +30,7 @@ document.getElementById('calculate-button').addEventListener('click', function()
     previousExpenses.innerText = newExpenses;
 })
 
+ //get the total calculate button
 document.getElementById('calculate-total').addEventListener('click', function(){
     
     //get manager cost
