@@ -94,25 +94,25 @@
                     <img class="mx-10 mb-3" src="images/Ureg-Ureg Marker.png" alt="">
                     <div class="flex justify-between mb-3">
                       <h4 class="mt-2">Per Player :</h4>
-                      <input type="text" class=" border w-28 px-2 p-2 text-white border-zinc-50 bg-black" placeholder="cost" id="">
+                      <input type="text" class=" border w-28 px-2 p-2 text-white border-zinc-50 bg-black" placeholder="cost" id="per-player-cost">
                     </div>
-                    <button class="border text-white w-48 p-2 bg-cyan-900 font-bold mb-2">Calculate<button>
+                    <button id="calculate-button" class="border text-white w-48 p-2 bg-cyan-900 font-bold mb-2">Calculate<button>
                       <div class="flex justify-between mb-3">
                         <h4>Player Expenses : </h4>
-                        <p>$<span>5000</span></p>
+                        <p>$<span id="player-expenses">00</span></p>
                       </div>
                       <div class="flex justify-between mb-3 w-56">
                         <h4 class="mt-2">Manager :</h4>
-                        <input type="text" class=" border w-28 text-sm px-2 p-2 text-white border-zinc-50 bg-black" placeholder=" Manager cost" id="">
+                        <input type="text" class=" border w-28 text-sm px-2 p-2 text-white border-zinc-50 bg-black" placeholder=" Manager cost" id="manager-cost">
                       </div>
                       <div class="flex justify-between mb-3 w-56">
                         <h4 class="mt-2">Coach :</h4>
-                        <input type="text" class=" border w-28 text-sm p-2 text-white border-zinc-50 bg-black" placeholder="Coach cost" id="">
+                        <input type="text" class=" border w-28 text-sm p-2 text-white border-zinc-50 bg-black" placeholder="Coach cost" id="coach-cost">
                       </div>
-                    <button class="border text-white w-48 p-2 bg-cyan-900 font-bold mb-3">Calculate Total<button></button>
+                    <button id="calculate-total" class="border text-white w-48 p-2 bg-cyan-900 font-bold mb-3">Calculate Total<button></button>
                     <div class="flex justify-between mb-3">
                       <h4>Total : </h4>
-                      <p class="text-orange-500 font-bold">$<span>5000</span></p>
+                      <p class="text-orange-500 font-bold">$<span id="total-cost">00</span></p>
                     </div>
                 </div>
                 <!-- calculation box ends -->
@@ -127,5 +127,6 @@
     <h3>Copyright @ 2022 All Rights Reserved.</h3>
   </footer>
   <script src="js/select5.js"></script>
+  <script src="js/budgetCalculation.js"></script>
 </body>
 </html>
